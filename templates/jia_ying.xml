@@ -9,4 +9,9 @@
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
+  <template name="ebb" value="echo $END$ . &quot;&lt;br&gt;&quot;;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
