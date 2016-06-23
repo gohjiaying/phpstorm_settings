@@ -1,5 +1,5 @@
 <templateSet group="jia_ying">
-  <template name="brr" value=". &quot;&lt;br&gt;&quot;;$END$" description="" toReformat="false" toShortenFQNames="true">
+  <template name="brr" value=" &quot;&lt;br&gt;&quot;;$END$" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
@@ -12,6 +12,16 @@
   <template name="ebb" value="echo $END$ . &quot;&lt;br&gt;&quot;;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="hhtml" value="?&gt;&#10;$END$&#10;&lt;?php" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pphp" value="&lt;?php&#10;$END$&#10;?&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
     </context>
   </template>
 </templateSet>
