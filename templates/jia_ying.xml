@@ -26,7 +26,6 @@
   </template>
   <template name="jphp" value="&lt;?php $END$?&gt;" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
     </context>
   </template>
